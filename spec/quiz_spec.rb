@@ -11,6 +11,8 @@ describe "a quiz" do
     expect(QUIZ_TOPICS).to include("ruby")
     expect(QUIZ_TOPICS).to include("rspec")
     expect(QUIZ_TOPICS).to include("testing")
+    expect(QUIZ_TOPICS).to include("objects")
+    expect(QUIZ_TOPICS).to include("arrays")
   end
 end
 
